@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bambam-web-k8s
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bambam-web-k8s
+  template:
+    metadata:
+      labels:
+        app: bambam-web-k8s
+    spec:
+      containers:
+      - name: bambam-app-con
+        image: bambamcr.azurecr.io/bambam:latest
+        ports:
+        - containerPort: 7071
+          name: bambam

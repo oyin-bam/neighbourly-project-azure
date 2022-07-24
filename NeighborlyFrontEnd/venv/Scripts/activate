@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="E:\WEB\Flask\Azure_function\venv"
+VIRTUAL_ENV="C:\Users\USER\Desktop\nd081-c2-Building-and-deploying-cloud-native-applications-from-scratch-project-starter\NeighborlyFrontEnd\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
