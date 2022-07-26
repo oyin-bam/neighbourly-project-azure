@@ -5,8 +5,8 @@
       "type": "eventGridTrigger",
       "name": "event",
       "direction": "in",
-	  "eventHubName": "bam-event-hub", 
-	  "connection": "Endpoint=sb://bam-event-hub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=aYfHr6XKB4yNYp9vMJwS+/jf1j0jpPE2964Xh1sBO/U="
+      "eventHubName": "bam-event-hub", 
+      "RootManageSharedAccessKey": "Endpoint=sb://bam-event-hub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=aYfHr6XKB4yNYp9vMJwS+/jf1j0jpPE2964Xh1sBO/U="
     }
   ]
 }
